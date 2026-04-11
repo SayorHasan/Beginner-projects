@@ -22,5 +22,5 @@ previousCOUNT.innerText = "Previous count "
 
 function previous_count() {
     previousCOUNT.innerText +=  " - "+ `${count}`
-    count = 0
+    
 }
