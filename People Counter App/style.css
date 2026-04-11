@@ -47,3 +47,7 @@ button{
 #save-btn{
     background-color: darkgreen;
 }
+#previous-count{
+    font-size: 20px;
+    color: rgba(99, 6, 6, 0.822);
+}

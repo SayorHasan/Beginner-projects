@@ -11,7 +11,16 @@ function increment() {
 }
 
 function save() {
-    countEl.innerText = `People entered: ${countEl.innerText}`
-    count = 0 ;
     
+    countEl.innerText = `People entered: ${countEl.innerText}`
+    previous_count();
+    
+}
+
+let previousCOUNT = document.getElementById("previous-count");
+previousCOUNT.innerText = "Previous count "
+
+function previous_count() {
+    previousCOUNT.innerText +=  " - "+ `${count}`
+    count = 0
 }
