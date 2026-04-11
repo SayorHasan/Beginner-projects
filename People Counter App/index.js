@@ -30,5 +30,8 @@ function previous_count() {
 function totalC() {
     previousCOUNT.innerText =  `Total People's Count of today : ${totalCOUNT}`
     totalCOUNT = 0
+    setInterval(() => {
+    location.reload();
+    }, 1000);
 
 }
