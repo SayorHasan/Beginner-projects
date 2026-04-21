@@ -1,21 +1,33 @@
 body{
     margin: 0;
     background-color: rgb(38, 102, 25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    text-align: center;
+    font-weight: bold;
 }
 h1{
-    text-align: center;
+    
     color: goldenrod;
 }
 #message-el{
     font-style: italic;
-    font-weight: bold;
-    color:white;
-    text-align: center;
-    font-size: 30px;
+    
 }
-p{
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.btn-card{
+    margin-bottom: 5px;
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px 0;
     font-weight: bold;
-    color:white;
-    text-align: center;
-    font-size: 30px;
+    border: none;
+    border-radius: 2px;
 }
